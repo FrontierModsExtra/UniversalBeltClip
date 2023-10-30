@@ -1,0 +1,43 @@
+[
+  {
+    "id": "belt_clip_universal",
+    "type": "ARMOR",
+
+    "//sources": [
+      "https://www.ivan.tw/products/universal-spring-holster-clips"
+    ],
+
+    "//notes": [
+      "we pretend that this clip also has a back hook for holding onto the belt with"
+    ],
+
+    "name": {
+      "str": "universal belt clip"
+    },
+    "description": "A small metal clip that hooks off the belt.  It is able to hold a single item, and the weight it's able to support is impressive for such a small clip.",
+
+    "weight": "5 g",
+    "volume": "10 ml",
+    "longest_side": "90 mm",
+
+    "material": ["hc_steel"],
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "holster": true,
+
+        "encumbrance": [0, 7],
+
+        "max_contains_volume": "3500 ml",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "500 mm"
+      }
+    ],
+
+    "flags": ["BELT_CLIP", "CANT_WEAR"],
+
+    "price": "3 USD"
+  }
+]
