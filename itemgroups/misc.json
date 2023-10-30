@@ -1,0 +1,65 @@
+[
+  {
+    "id": "kitchen_counters",
+    "copy-from": "kitchen_counters",
+    "type": "item_group",
+
+    "subtype": "distribution",
+
+    "extend": { "items": [{ "item": "belt_clip_universal", "prob": 5 }] }
+  },
+  {
+    "id": "bedroom",
+    "copy-from": "bedroom",
+    "type": "item_group",
+
+    "subtype": "distribution",
+
+    "extend": { "entries": [{ "item": "belt_clip_universal", "prob": 5 }] }
+  },
+  {
+    "id": "hoarder",
+    "copy-from": "hoarder",
+    "type": "item_group",
+
+    "subtype": "distribution",
+
+    "extend": { "items": [{ "item": "belt_clip_universal", "prob": 1 }] }
+  },
+  {
+    "id": "mischw",
+    "copy-from": "mischw",
+    "type": "item_group",
+
+    "subtype": "distribution",
+
+    "extend": { "items": [{ "item": "belt_clip_universal", "prob": 2 }] }
+  },
+  {
+    "id": "gobag_contents",
+    "copy-from": "gobag_contents",
+    "type": "item_group",
+
+    "subtype": "distribution",
+
+    "extend": { "items": [{ "item": "belt_clip_universal", "prob": 5 }] }
+  },
+  {
+    "id": "bugout_extras",
+    "copy-from": "bugout_extras",
+    "type": "item_group",
+
+    "subtype": "distribution",
+
+    "extend": { "entries": [{ "item": "belt_clip_universal", "prob": 5 }] }
+  },
+  {
+    "id": "supplies_hardware",
+    "copy-from": "supplies_hardware",
+    "type": "item_group",
+
+    "subtype": "distribution",
+
+    "extend": { "items": [{ "item": "belt_clip_universal", "prob": 2 }] }
+  }
+]
