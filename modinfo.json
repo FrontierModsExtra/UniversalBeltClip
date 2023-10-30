@@ -1,0 +1,15 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "belt_clip",
+
+    "name": "Universal Belt Clip",
+    "description": "Allows a large variety of items to be hanged off belt clips, thus enabling a lot more belt carrying capacity",
+
+    "authors": ["Hyperseeker"],
+
+    "category": "items",
+
+    "dependencies": ["dda"]
+  }
+]
